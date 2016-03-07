@@ -5,7 +5,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spigot.version>1.8.8-R0.1-SNAPSHOT</spigot.version>
+        <spigot.version>1.9-R0.1-SNAPSHOT</spigot.version>
         <build.number>SNAPSHOT</build.number>
     </properties>
 
@@ -80,7 +80,7 @@
             <artifactId>HolographicDisplays</artifactId>
             <scope>system</scope>
             <version>2.1.10</version>
-            <systemPath>${basedir}/lib/HolographicDisplays-2.1.10.jar</systemPath>
+            <systemPath>${basedir}/lib/HolographicDisplays.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.sk89q</groupId>
@@ -95,7 +95,9 @@
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
+            <scope>system</scope>
             <version>3.6.5-SNAPSHOT</version>
+            <systemPath>${basedir}/lib/ProtocolLib.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>net.milkbowl.vault</groupId>

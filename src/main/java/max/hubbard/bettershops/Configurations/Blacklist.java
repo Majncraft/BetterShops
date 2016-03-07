@@ -223,7 +223,7 @@ public class Blacklist implements Listener {
                             item.setAmount(1);
 
                             addItem(item);
-                            p.playSound(p.getLocation(), Sound.NOTE_PLING, 400, 400);
+                            p.playSound(p.getLocation(), Sound.BLOCK_NOTE_PLING, 400, 400);
                             openBlacklistInventory(e.getInventory(), p, 1);
 
                             return;
@@ -261,7 +261,7 @@ public class Blacklist implements Listener {
                 //Remove Item
                 if (getItems().contains(e.getCurrentItem())) {
                     removeItem(e.getCurrentItem());
-                    p.playSound(p.getLocation(), Sound.NOTE_BASS, 400, 400);
+                    p.playSound(p.getLocation(), Sound.BLOCK_NOTE_PLING, 400, 400);
                     openBlacklistInventory(e.getInventory(), p, 1);
 
                 }

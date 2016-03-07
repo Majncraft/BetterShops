@@ -153,7 +153,7 @@ public class Core extends JavaPlugin {
                     boolean c = false;
 
                     if (v.contains("Spigot")) {
-                        if (version.equals("v1_8_R1") || version.equals("v1_8_R2") || version.equals("v1_8_R3")) {
+                        if (version.equals("v1_9_R1")) {
                             c = true;
                         }
                     }
